@@ -35,6 +35,7 @@ Partial Class Form3
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -66,7 +67,7 @@ Partial Class Form3
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(22, 80)
+        Me.Label2.Location = New System.Drawing.Point(22, 60)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(83, 13)
         Me.Label2.TabIndex = 4
@@ -75,7 +76,7 @@ Partial Class Form3
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(22, 107)
+        Me.Label3.Location = New System.Drawing.Point(22, 90)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(109, 13)
         Me.Label3.TabIndex = 5
@@ -83,7 +84,7 @@ Partial Class Form3
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(137, 107)
+        Me.TextBox2.Location = New System.Drawing.Point(137, 90)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(113, 20)
         Me.TextBox2.TabIndex = 10
@@ -91,7 +92,7 @@ Partial Class Form3
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(256, 107)
+        Me.Label4.Location = New System.Drawing.Point(256, 97)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(99, 13)
         Me.Label4.TabIndex = 11
@@ -99,7 +100,7 @@ Partial Class Form3
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(361, 107)
+        Me.TextBox3.Location = New System.Drawing.Point(361, 90)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(89, 20)
         Me.TextBox3.TabIndex = 12
@@ -107,7 +108,7 @@ Partial Class Form3
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(456, 107)
+        Me.Label5.Location = New System.Drawing.Point(456, 97)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(79, 13)
         Me.Label5.TabIndex = 13
@@ -115,7 +116,7 @@ Partial Class Form3
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(541, 107)
+        Me.TextBox4.Location = New System.Drawing.Point(541, 94)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(39, 20)
         Me.TextBox4.TabIndex = 14
@@ -123,7 +124,7 @@ Partial Class Form3
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(599, 110)
+        Me.Label7.Location = New System.Drawing.Point(586, 97)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(91, 13)
         Me.Label7.TabIndex = 15
@@ -131,7 +132,7 @@ Partial Class Form3
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(696, 107)
+        Me.TextBox6.Location = New System.Drawing.Point(683, 94)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(97, 20)
         Me.TextBox6.TabIndex = 16
@@ -141,14 +142,24 @@ Partial Class Form3
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(25, 133)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(929, 138)
+        Me.DataGridView1.Size = New System.Drawing.Size(855, 138)
         Me.DataGridView1.TabIndex = 17
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(783, 289)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(97, 23)
+        Me.Button2.TabIndex = 18
+        Me.Button2.Text = "Search"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(999, 283)
+        Me.ClientSize = New System.Drawing.Size(899, 324)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.Label7)
@@ -182,4 +193,5 @@ Partial Class Form3
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class

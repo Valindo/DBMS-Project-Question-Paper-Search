@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -30,15 +31,18 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(116, 59)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label1.Location = New System.Drawing.Point(21, 87)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(117, 13)
+        Me.Label1.Size = New System.Drawing.Size(248, 30)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Question Paper Search"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(97, 95)
+        Me.Button1.Location = New System.Drawing.Point(69, 140)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(157, 23)
         Me.Button1.TabIndex = 1
@@ -47,7 +51,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(97, 133)
+        Me.Button2.Location = New System.Drawing.Point(69, 188)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(157, 23)
         Me.Button2.TabIndex = 2
@@ -58,10 +62,13 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(372, 229)
+        Me.BackColor = System.Drawing.SystemColors.GrayText
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(291, 292)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "Form1"
         Me.Text = "Question Paper Search"
         Me.ResumeLayout(False)
