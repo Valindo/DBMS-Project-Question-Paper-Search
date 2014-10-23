@@ -10,3 +10,16 @@ D:\adi\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1
 D:\adi\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
 D:\adi\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
 D:\adi\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form2.resources
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form2.resources
+C:\Users\Student\Desktop\New folder\DBMS-Project-Question-Paper-Search\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form3.resources

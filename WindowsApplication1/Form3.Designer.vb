@@ -22,8 +22,16 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'Form3
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Text = "Form3"
+        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Name = "Form3"
+        Me.Text = "IT paper search"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class
